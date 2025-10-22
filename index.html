@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="bg-black h-[70px]">
+      <div class="container mx-auto flex items-center h-full px-3 relative">
+        <div class="absolute left-3">
+          <img src="/images/katman_1.png" alt="Logo" class="h-6" />
+        </div>
+        <nav class="flex-1 flex justify-center hidden md:flex">
+          <ul class="flex items-center gap-[60px] text-[12px]">
+            <li>
+              <a href="#" class="text-white">Servislerimiz</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">Sektörler</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">Hakkımızda</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">Görüşler</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">Raporlar</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">Basın</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">İletişim</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="absolute right-3 flex items-center gap-4">
+          <div class="hidden md:flex items-center gap-2 text-sm">
+            <span class="text-white underline">TR</span>
+            <span class="text-gray-400">|</span>
+            <span class="text-gray-400">EN</span>
+          </div>
+          <button id="mobile-menu-button" class="md:hidden text-white">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="fixed top-0 right-0 h-screen w-80 bg-black z-50 transform translate-x-full transition-transform duration-300 ease-in-out">
+        <div class="flex flex-col h-full">
+          <div class="flex items-center justify-between p-6 border-b border-gray-700">
+            <div class="flex items-center gap-3">
+              <img src="/images/katman_1.png" alt="Logo" class="h-6">
+            </div>
+          </div>
+          
+          <nav class="flex-1 px-6 py-8">
+            <ul class="space-y-6">
+              <li>
+                <a href="#" class="text-white text-lg py-3 hover:text-gray-300 transition-colors block">
+                  Servislerimiz
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-lg py-3 hover:text-gray-300 transition-colors block">
+                  Sektörler
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-lg py-3 hover:text-gray-300 transition-colors block">
+                  Hakkımızda
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-lg py-3 hover:text-gray-300 transition-colors block">
+                  Görüşler
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-lg py-3 hover:text-gray-300 transition-colors block">
+                  Raporlar
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-lg py-3 hover:text-gray-300 transition-colors block">
+                  Basın
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-lg py-3 hover:text-gray-300 transition-colors block">
+                  İletişim
+                </a>
+              </li>
+            </ul>
+          </nav>
+          
+          <div class="px-6 py-6 border-t border-gray-700">
+            <div class="flex items-center gap-4">
+              <span class="text-white text-sm font-medium">DİL</span>
+              <div class="flex items-center gap-2">
+                <span class="text-white text-sm underline">TR</span>
+                <span class="text-gray-400 text-sm">|</span>
+                <span class="text-gray-400 text-sm">EN</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </header>
+
+    <section class="relative h-[400px] md:h-[500px] w-full bg-black">
+      <div class="absolute right-0 top-0 h-full opacity-50">
+        <img
+          src="/images/v1 1.png"
+          alt="Green Lines"
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="absolute bottom-8 md:bottom-15 left-4 md:left-50 max-w-2xl z-10 px-4 md:px-0">
+        <h1 class="text-white text-3xl md:text-[4rem] font-bold mb-1">Markalaşma</h1>
+        <p class="text-white text-base md:text-xl">
+          Rekabet avantajı sağlayacak temeller atıyor
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="bg-white py-4 container mx-auto">
+        <p class="text-[15px] text-gray-600">
+          Markalaşma Danışmanlığı hizmetimizle, işletmenizin markasını
+          derinlemesine anlayarak, benzersiz bir kimlik yaratmanıza ve
+          sektörünüzde öne çıkmanıza yardımcı oluyoruz. Bu süreçte, markanızın
+          stratejisini, konumlandırmasını ve kurumsal kimliğini şekillendirerek,
+          rekabet analizi ve hedef kitle analizlerini bir araya getiriyoruz.
+          Amacımız, işletmenizin değerlerini ve hedeflerini yansıtan, hedef
+          kitlenizle güçlü bir bağ kuran bir marka oluşturmak. Bu yolculukta,
+          geniş deneyimimizi ve derin veri analizi yeteneklerimizi kullanarak,
+          markanızın büyümesine ve pazarda sürdürülebilir bir başarı elde
+          etmesine yardımcı oluyoruz.
+        </p>
+      </div>
+      <div class="container mx-auto p-2 space-y-8 mb-6">
+          <h2 class="text-2xl font-semibold text-[#424242]">
+            Branchout Markalaşma Metodolojisi
+          </h2>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="h-[300px] md:h-[400px] lg:h-full">
+          <img
+            src="/images/Rectangle 209.png"
+            alt="Markalaşma Metodolojisi"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="bg-gray-50 p-6 md:p-8 flex flex-col justify-center">
+          <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+            Marka Rezonansı Yaratma
+          </h3>
+          <div class="rich-text-content prose prose-lg max-w-none text-gray-700">
+            <p>
+              İşletmelerin markalarını, hedef kitleleri için hem alakalı hem de inandırıcı kılacak, aynı zamanda rekabetçi pazarda ayırt edici bir konuma taşıyacak temel faydaları ve deneyimleri tanımlamalarına ve ifade etmelerine yardımcı oluyoruz.
+              <br><br>
+              Bu yaklaşım, genellikle mevcut markaların müşteri beklentileriyle daha uyumlu hale gelmesi için markanın yeniden konumlandırılmasını içerir. Bu süreçte Brachout, derin içgörüler ortaya çıkarmak için hem niteliksel hem de niceliksel araştırma metodolojilerini kullanır.
+            </p>
+          </div>
+        </div>
+        <div class="order-1 lg:order-2 h-[300px] md:h-[400px] lg:h-full">
+          <img
+            src="/images/Rectangle 212.png"
+            alt="Markalaşma Metodolojisi"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="order-2 lg:order-1 bg-gray-50 p-6 md:p-8 flex flex-col justify-center">
+          <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+            Marka Mimarisi ve Optimizasyonu Yaratma
+          </h3>
+          <div class="rich-text-content prose prose-lg max-w-none text-gray-700">
+            <p>
+              Günümüz global pazarında işletmeler, yeni marka lansmanları ve alt markalar aracılığıyla marka varlıklarını genişletme eğilimindedir. Branchout, bir marka portföyü içindeki net roller ve ilişkileri belirleyerek, marka ailesini sadeleştirip kaynak tahsisini optimize etmeye yardımcı olur.
+              <br><br>
+              Bu süreç, stratejik açıklık ve operasyonel verimlilik sağlayan iyi tanımlanmış bir marka mimarisi tarafından desteklenir.
+            </p>
+          </div>
+        </div>
+        <div class="order-3 h-[300px] md:h-[400px] lg:h-full">
+          <img src="/images/Rectangle 213.png" alt="Markalaşma Metodolojisi" class="w-full h-full object-cover" />
+        </div>
+        <div class="order-4 bg-gray-50 p-6 md:p-8 flex flex-col justify-center">
+          <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+            Marka Sadakati Oluşturma
+          </h3>
+          <div class="rich-text-content prose prose-lg max-w-none text-gray-700">
+            <p>
+              Kavramsallaştırmanın ötesinde, bir markanın sözünün tüm müşteri temas noktalarında gerçekleştirilmesi kritik öneme sahiptir.
+              <br><br>
+              Branchout'un kapsamlı iş anlayışı ve çok kanallı ortam hakkındaki keskin anlayışı, marka deneyiminin hem çevrimiçi hem de çevrimdışı tutarlı bir şekilde sunulmasını sağlamak için müşterilerle etkili bir şekilde işbirliği yapmamızı sağlar, böylece müşteri sadakati ve güvenini teşvik eder. 
+            </p>
+          </div>
+        </div>
+        <div class="order-6 h-[300px] md:h-[400px] lg:h-full">
+          <img src="/images/Rectangle 214.png" alt="Markalaşma Metodolojisi" class="w-full h-full object-cover" />
+        </div>
+        <div class="order-5 bg-gray-50 p-6 md:p-8 flex flex-col justify-center">
+          <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+            Şirket İçi Yetkinlik Geliştirme
+          </h3>
+          <div class="rich-text-content prose prose-lg max-w-none text-gray-700">
+            <p>
+              Müşterilerimizin marka stratejileri ve markaları üzerinde yetkinlik ve sahiplik geliştirmeleri, metodolojimizin temel taşlarından biridir.
+              <br><br>
+              Doğru rol tanımı, özel eğitim programları ve deneyimli öğrenme inisiyatifleri aracılığıyla, iç markalaşma yeteneklerini besleyerek müşterilerimizin marka stratejilerini içten yönetmelerini ve geliştirmelerini sağlıyoruz. 
+            </p>
+          </div>
+        </div>
+        <div class="order-7 h-[300px] md:h-[400px] lg:h-full">
+          <img
+            src="/images/Rectangle 215.png"
+            alt="Markalaşma Metodolojisi"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="order-8 bg-gray-50 p-6 md:p-8 flex flex-col justify-center">
+          <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+            Marka Stratejisi ve İş Anlayışı
+          </h3>
+          <div class="rich-text-content prose prose-lg max-w-none text-gray-700">
+            <p>
+              Marka stratejilerinin etkinliğini ölçmek ve sürdürmek için, müşterilerimize sağlam metrikler ve kıyaslama araçları geliştirmelerinde yardımcı oluyoruz.
+              <br><br>
+              Bu analitik çerçeve, markanın başlangıç konumunu rakipler ve diğer endüstrilerle kıyaslayarak stratejik girişimlerin ilerlemesini ve etkisini takip etmek için sadece bir yol sunmakla kalmaz, aynı zamanda uzun vadeli marka sürüdürülebilirliğini de sağlar. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="w-full bg-[#1B252F] py-16 px-6 md:px-12">
+        <div class="container mx-auto">
+          <h2 class="text-white text-[30px] font-bold mb-5">Başarı Hikayeleri</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12">
+            <div class="flex flex-col">
+              <div class="flex items-center gap-1.5 mb-1.5">
+                <div class="text-white text-lg font-semibold">01</div>
+                <div class="flex-1 h-[2px] bg-[#61E523]"></div>
+              </div>
+              <h3 class="text-white text-sm font-semibold leading-relaxed mb-1.5">Otel Dönüşümü</h3>
+              <div class="text-white text-sm leading-relaxed prose prose-invert prose-sm max-w-none">
+                <p>Bir otel zinciri için, müşteri deneyimini geliştirmek ve operasyonel verimliliği artırmak amacıyla kapsamlı bir dijital dönüşüm stratejisi geliştirdik. Bu strateji, otel içi hizmetlerin dijitalleştirilmesi, müşteri geri bildirimlerinin anlık olarak analiz edilmesi ve kişiselleştirilmiş hizmet sunumunu içeriyordu. </p>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <div class="flex items-center gap-1.5 mb-1.5">
+                <div class="text-white text-lg font-semibold">02</div>
+                <div class="flex-1 h-[2px] bg-[#61E523]"></div>
+              </div>
+              <h3 class="text-white text-sm font-semibold leading-relaxed mb-1.5">Güvenlik Şirketi</h3>
+              <div class="text-white text-sm leading-relaxed prose prose-invert prose-sm max-w-none">
+                <p>Güvenlik şirketi için, müşteri tabanını genişletmek ve hizmet kalitesini artırmak üzere, modern pazarlama iletişimi yoluyla marka ve pazar konumunu güçlendirmek için çalıştık.   </p>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <div class="flex items-center gap-1.5 mb-1.5">
+                <div class="text-white text-lg font-semibold">03</div>
+                <div class="flex-1 h-[2px] bg-[#61E523]"></div>
+              </div>
+              <h3 class="text-white text-sm font-semibold leading-relaxed mb-1.5">Teknoloji</h3>
+              <div class="text-white text-sm leading-relaxed prose prose-invert prose-sm max-w-none">
+                <p>Bir teknoloji şirketi ile çalışarak, ürün geliştirme süreçlerini hızlandırdık ve pazardaki yenilikçiliklerini artırmaları için rekabet analizi ve sektör trendleri üzerine derinlemesine bir çalışma yürüttük. Ayrıca, global pazarda marka bilinirliklerini artırmak için stratejik pazarlama ve iletişim planları oluşturduk. </p>
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <div class="flex items-center gap-1.5 mb-1.5">
+                <div class="text-white text-lg font-semibold">04</div>
+                <div class="flex-1 h-[2px] bg-[#61E523]"></div>
+              </div>
+              <h3 class="text-white text-sm font-semibold leading-relaxed mb-1.5">Restoran Zinciri Büyüme Stratejisi</h3>
+              <div class="text-white text-sm leading-relaxed prose prose-invert prose-sm max-w-none">
+                <p>Bir restoran zinciri için, bölgesel bilinirlikten ulusal bilinirliğe geçişi sağlayan bir büyüme stratejisi geliştirdik. Marka kimliğini güncelleyerek modern ve çekici bir görsel dil oluşturduk, müşteri sadakatini artırmak için dijital bir sadakat programı geliştirdik ve sosyal medya kanallarında etkili bir reklam kampanyası yürüttük. Stratejimiz, restoran zincirinin gelirlerinde %30 artış ve 6 yeni şube açılışıyla sonuçlandı.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">Ekibimiz</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
+          <div class="bg-white p-6 rounded-2xl">
+            <div class="flex items-center justify-center gap-3 mb-6">
+              <h3 class="text-xl md:text-2xl font-bold text-gray-900">Mehmet Kaya</h3>
+              <a href="#" class="inline-flex items-center justify-center w-8 h-8 bg-[#0077b5] rounded-sm hover:bg-[#006399] transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin text-white"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+            </div>
+            <div class="mb-6">
+              <p class="text-gray-700 text-center font-medium">Partner / Ortak</p>
+            </div>
+            <div class="w-32 h-1 bg-gray-900 mx-auto mb-6"></div>
+            <div>
+              <p class="text-sm text-gray-600 text-center">Büyüme, Pazarlama ve Satış Nöropazarlama Danışmanlığı Lideri</p>
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-2xl">
+            <div class="flex items-center justify-center gap-3 mb-6">
+              <h3 class="text-xl md:text-2xl font-bold text-gray-900">Şeyma Tigin Doğan</h3>
+              <a href="#" class="inline-flex items-center justify-center w-8 h-8 bg-[#0077b5] rounded-sm hover:bg-[#006399] transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin text-white"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+            </div>
+            <div class="mb-6">
+              <p class="text-gray-700 text-center font-medium">Kurucu Ortak</p>
+            </div>
+            <div class="w-32 h-1 bg-gray-900 mx-auto mb-6"></div>
+            <div>
+              <p class="text-sm text-gray-600 text-center">Büyüme, Pazarlama ve Satış Stratejisi Lideri</p>
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-2xl md:col-span-2 xl:col-span-1">
+            <div class="flex items-center justify-center gap-3 mb-6">
+              <h3 class="text-xl md:text-2xl font-bold text-gray-900">Egehan Doğan</h3>
+              <a href="#" class="inline-flex items-center justify-center w-8 h-8 bg-[#0077b5] rounded-sm hover:bg-[#006399] transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin text-white"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+            </div>
+            <div class="mb-6">
+              <p class="text-gray-700 text-center font-medium">Partner / Ortak</p>
+            </div>
+            <div class="w-32 h-1 bg-gray-900 mx-auto mb-6"></div>
+            <div>
+              <p class="text-sm text-gray-600 text-center">Dijital Tasarım ve Ürün Stratejisi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-12 bg-black">
+      <div class="container mx-auto px-4">
+        <div class="text-left">
+          <h2 class="text-2xl md:text-4xl font-bold text-white mb-4">Size nasıl yardımcı olabiliriz?</h2>
+          <p class="text-white text-base md:text-lg">Buradan bizimle iletişime geçebilir veya hizmetlerimizi detaylı olarak keşfetmeye devam edebilirsiniz.</p>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-white py-12">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+          <div class="space-y-4">
+            <img src="/images/logoblack.png" alt="Logo" class="w-32 h-auto">
+            <p class="text-[#666666] text-sm leading-relaxed">Temel değerlerimiz, şirketimizin kuruluşundan bu yana bize rehberlik eden ilkeleri yansıtır. Bu değerler dinamizm, yenilik, etik, doğruluk ve sürdürülebilirlik temelinde şekillenir.</p>
+          </div>
+          <div class="space-y-4">
+            <h3 class="text-lg font-semibold text-[#333333]">Abone Ol</h3>
+            <p class="text-[#666666] text-sm">Konuları seçin ve en son içgörülerimizle güncel kalın</p>
+            <form class="space-y-3">
+              <div class="flex flex-col sm:flex-row gap-2">
+                <input type="text" placeholder="E-Postanızı Giriniz" class="flex-1 ring-1 ring-gray-300 ring-offset-2 rounded-md px-4 py-2">
+                <button type="submit" class="bg-[#61E523] text-white px-5 py-2 rounded hover:bg-[#52C41A] transition-colors">Gönder</button>
+              </div>
+            </form>
+          </div>
+          <div class="space-y-4 md:col-span-2 lg:col-span-1">
+            <div class="grid grid-cols-2 gap-4">
+              <a href="#" class="text-[#666666] text-sm hover:text-green-300 transition-colors">İletişim</a>
+              <a href="#" class="text-[#666666] text-sm hover:text-green-300 transition-colors">Gizlilik Politikası</a>
+              <a href="#" class="text-[#666666] text-sm hover:text-green-300 transition-colors">KVKK</a>
+              <a href="#" class="text-[#666666] text-sm hover:text-green-300 transition-colors">Çerez Politikası</a>
+            </div>
+          </div>
+          </div>
+          <p class="text-left text-gray-500 text-sm">2025 © Telif Hakkı | Branchout Global | Tüm hakları saklıdır.</p>
+        </div>
+      </div>
+    </footer>
+    
+    <script>
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+      
+      function openMenu() {
+        mobileMenu.classList.remove('translate-x-full');
+        document.body.style.overflow = 'hidden';
+      }
+      
+      function closeMenu() {
+        mobileMenu.classList.add('translate-x-full');
+        document.body.style.overflow = 'auto';
+      }
+      
+      mobileMenuButton.addEventListener('click', openMenu);
+      
+      document.addEventListener('click', (e) => {
+        if (!mobileMenuButton.contains(e.target) && !mobileMenu.contains(e.target)) {
+          closeMenu();
+        }
+      });
+    </script>
+  </body>
+</html>
