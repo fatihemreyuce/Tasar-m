@@ -7,12 +7,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <header class="bg-black h-[70px]">
-      <div class="container mx-auto flex items-center h-full px-3 relative">
+    <header class="bg-black h-[70px] sm:px-6 md:px-12 lg:px-20">
+      <div class="container mx-auto flex items-center justify-between h-full px-3 relative">
         <div class="absolute left-3">
           <img src="/images/katman_1.png" alt="Logo" class="h-6" />
         </div>
-        <nav class="flex-1 flex justify-center hidden md:flex">
+        <nav class="flex-1 flex justify-center hidden lg:flex">
           <ul class="flex items-center gap-[60px] text-[12px]">
             <li>
               <a href="#" class="text-white">Servislerimiz</a>
@@ -38,12 +38,12 @@
           </ul>
         </nav>
         <div class="absolute right-3 flex items-center gap-4">
-          <div class="hidden md:flex items-center gap-2 text-sm">
+          <div class="hidden lg:flex items-center gap-2 text-sm">
             <span class="text-white underline">TR</span>
             <span class="text-gray-400">|</span>
             <span class="text-gray-400">EN</span>
           </div>
-          <button id="mobile-menu-button" class="md:hidden text-white">
+          <button id="mobile-menu-button" class="lg:hidden text-white">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
@@ -110,26 +110,25 @@
           </div>
         </div>
       </div>
-      
     </header>
-
-    <section class="relative h-[400px] md:h-[500px] w-full bg-black">
-      <div class="absolute right-0 top-0 h-full opacity-50">
+    <main>
+    <section class="relative h-[400px] md:h-[500px] w-full">
+      <div class="absolute h-full -z-10">
         <img
           src="/images/v1 1.png"
           alt="Green Lines"
           class="w-full h-full object-cover"
         />
       </div>
-      <div class="absolute bottom-8 md:bottom-15 left-4 md:left-50 max-w-2xl z-10 px-4 md:px-0">
-        <h1 class="text-white text-3xl md:text-[4rem] font-bold mb-1">Markalaşma</h1>
+      <div class="flex flex-col justify-end items-start h-full sm:px-6 md:px-12 lg:px-20 md:py-16 py-10">
+        <h1 class="text-white text-3xl md:text-6xl font-bold mb-2">Markalaşma</h1>
         <p class="text-white text-base md:text-xl">
           Rekabet avantajı sağlayacak temeller atıyor
         </p>
       </div>
     </section>
     <section>
-      <div class="bg-white py-4 container mx-auto">
+      <div class="bg-white sm:px-6 md:px-12 lg:px-20 py-10 mx-auto">
         <p class="text-[15px] text-gray-600">
           Markalaşma Danışmanlığı hizmetimizle, işletmenizin markasını
           derinlemesine anlayarak, benzersiz bir kimlik yaratmanıza ve
@@ -143,7 +142,7 @@
           etmesine yardımcı oluyoruz.
         </p>
       </div>
-      <div class="container mx-auto p-2 space-y-8 mb-6">
+      <div class="sm:px-6 md:px-12 lg:px-20 space-y-8 mb-6">
           <h2 class="text-2xl font-semibold text-[#424242]">
             Branchout Markalaşma Metodolojisi
           </h2>
@@ -203,10 +202,10 @@
             </p>
           </div>
         </div>
-        <div class="order-6 h-[300px] md:h-[400px] lg:h-full">
+        <div class="lg:order-6 order-5 h-[300px] md:h-[400px] lg:h-full">
           <img src="/images/Rectangle 214.png" alt="Markalaşma Metodolojisi" class="w-full h-full object-cover" />
         </div>
-        <div class="order-5 bg-gray-50 p-6 md:p-8 flex flex-col justify-center">
+        <div class="lg:order-5 order-6 bg-gray-50 p-6 md:p-8 flex flex-col justify-center">
           <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
             Şirket İçi Yetkinlik Geliştirme
           </h3>
@@ -350,6 +349,7 @@
         </div>
       </div>
     </section>
+    </main>
     <footer class="bg-white py-12">
       <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
@@ -380,28 +380,6 @@
         </div>
       </div>
     </footer>
-    
-    <script>
-      const mobileMenuButton = document.getElementById('mobile-menu-button');
-      const mobileMenu = document.getElementById('mobile-menu');
-      
-      function openMenu() {
-        mobileMenu.classList.remove('translate-x-full');
-        document.body.style.overflow = 'hidden';
-      }
-      
-      function closeMenu() {
-        mobileMenu.classList.add('translate-x-full');
-        document.body.style.overflow = 'auto';
-      }
-      
-      mobileMenuButton.addEventListener('click', openMenu);
-      
-      document.addEventListener('click', (e) => {
-        if (!mobileMenuButton.contains(e.target) && !mobileMenu.contains(e.target)) {
-          closeMenu();
-        }
-      });
-    </script>
   </body>
+  <script src="app.js"></script>
 </html>
